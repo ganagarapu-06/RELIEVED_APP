@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "148056503661",
+    "project_id": "onesignalrelieved",
+    "storage_bucket": "onesignalrelieved.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148056503661:android:f207f1d7cd42a652815664",
+        "android_client_info": {
+          "package_name": "com.example.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148056503661-jtmpi89v97if8as8stf68dsgpn464e40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC38Y2OjRhg9d-pwoxBVw1M8MreugbFCJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148056503661-jtmpi89v97if8as8stf68dsgpn464e40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148056503661:android:4e9f69e2310dee57815664",
+        "android_client_info": {
+          "package_name": "com.example.onesignalnotifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148056503661-jtmpi89v97if8as8stf68dsgpn464e40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC38Y2OjRhg9d-pwoxBVw1M8MreugbFCJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148056503661-jtmpi89v97if8as8stf68dsgpn464e40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

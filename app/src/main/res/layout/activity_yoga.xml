@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YogaActivity"
+    android:background="@drawable/gradientlightblue_background"
+    tools:layout_editor_absoluteX="89dp"
+    tools:layout_editor_absoluteY="38dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="18dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Cursive"
+            android:layout_gravity="center"
+            android:text="Yoga"
+            android:textColor="#000"
+            android:textSize="70dp"
+            tools:ignore="MissingConstraints"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="338dp"
+            android:src="@drawable/yogapage" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player_position"
+                android:text="00:00"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <SeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player_duration"
+                android:text="00:00"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/bt_rew"
+                android:src="@drawable/rewind" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/bt_play"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/bt_pause"
+                android:visibility="gone"
+                android:src="@drawable/pause"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/bt_ff"
+                android:src="@drawable/forward" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Cursive"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="Basic Postures"
+                android:textColor="#000"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yogadescription1"
+                android:textColor="#000"
+                style="@style/Cursive"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youTubePlayerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="sTANio_2E0Q"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                app:showYouTubeButton="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Cursive"
+                android:layout_gravity="center"
+                android:text="Advantages"
+                android:textColor="#000"
+                android:textSize="50dp"
+                tools:ignore="MissingConstraints"/>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yogadescription2"
+                android:textColor="#000"
+                style="@style/Cursive"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

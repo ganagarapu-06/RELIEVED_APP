@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Relieved</string>
+    <string name="todo">TODO</string>
+    <string-array name="Relieving_Techniques">
+        <item>Meditation</item>
+        <item>Nutrition</item>
+        <item>Exercise</item>
+        <item>Sleep</item>
+        <item>NatureTour</item>
+        <item>Shine</item>
+        <item>Alert</item>
+    </string-array>
+    <string-array name="Describing_Techniques">
+        <item>Relax and Enjoy</item>
+        <item>tasty</item>
+        <item>sweat it out</item>
+        <item>night sleep</item>
+        <item>nuture nature</item>
+        <item>A chatbot</item>
+        <item>SMS to near ones</item>
+    </string-array>
+    <string-array name="fulldescription">
+        <item>Meditation is good for health.s normal, sweating becomes less and oxygen can be used more efficiently. Moreover, our immune system functions well. In short, meditation is magnificent and effective in temporary stress reduction and long-term health. A clear and peaceful state of mind can be achieved through this practice. Meditation increases positive thinking, attention levels and awareness to reduce stress. Thus, meditation should be suggested as a treatment for the prevention of many stress-related conditions.</item>
+        <item>tasty food is harmful.Meditation is good for health.Meditation is a practice where an individual uses a technique – such as mindfulness, or focusing the mind on a particular object, thought, or activity – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state.Meditation is an approach to training the mind, similar to the way that fitness is an approach to training the body. But many meditation techniques exist — so how do you learn how to meditate?“In Buddhist tradition, the word ‘meditation’ is equivalent to a word like ‘sports’ in the U.S. It’s a family of activities, not a single thing,” University of Wisconsin neuroscience lab director Richard J. Davidson, Ph.D., told The New York Times. And different meditation practices require different mental skills.It’s extremely difficult for a beginner to sit for hours and think of nothing or have an “empty mind.” We have some tools such as a beginner meditation DVD or a brain-sensing headband to help you through this process when you are just starting to learn how to best meditate. In general, the easiest way to begin meditating is by focusing on the breath. An example of one of the most common approaches to meditation is concentration.Effective meditation is free from any kind of other distraction. Research has shown that meditation has benefits on mental health, including decrease in depression, increase in positive emotional state and increases in the ability to deal with unavoidable stressful conditions in life. Meditation not only involves relaxation but also the active growth of positive mental states such as affection, kindness, sympathy, tolerance and energy.</item>
+        <item>work outs are good for health</item>
+        <item>sleep well matteres</item>
+        <item>nature is the best for relaxing</item>
+        <item>A chatbot helps u talk u r mind</item>
+        <item>SMS will be sent can you hangout with me</item>
+    </string-array>
+
+</resources>
